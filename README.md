@@ -5,7 +5,7 @@ Use the Search Keyword (default: `dc`) to deep search Contacts cards.
 - Type a street name, phone number, or piece of information from the Notes field
 - Use the * wildcard prefix for a partial name match not beginning from a word boundary, e.g. type "*dore" to match "Commodore"
 
-![Deep Contacts](deep-contacts-search.png)
+![Deep Contacts](/Resources/deep-contacts-search.png)
 
 ## Download
 
