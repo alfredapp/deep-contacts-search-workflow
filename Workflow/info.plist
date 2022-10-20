@@ -86,7 +86,7 @@
 				<key>includesystem</key>
 				<false/>
 				<key>keyword</key>
-				<string>dc</string>
+				<string>{var:search_keyword}</string>
 				<key>limit</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -115,31 +115,59 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Use the keyword "dc" to deep search Contacts cards.
+	<string>Use the Search Keyword (default: `dc`) to deep search Contacts cards.
 
 - Type a street name, phone number, or piece of information from the Notes field
-- Use the * wildcard prefix for a partial name match not beginning from a word boundary, e.g. type "*dore" to match "Commodore"</string>
+- Use the * wildcard prefix for a partial name match not beginning from a word boundary, e.g. type "*dore" to match "Commodore"
+
+![Deep Contacts](deep-contacts-search.png)</string>
 	<key>uidata</key>
 	<dict>
 		<key>96C603D5-9255-4260-9C2E-9634816A7988</key>
 		<dict>
+			<key>note</key>
+			<string>Use the Search Keyword (default: `dc`) to deep search Contacts cards.
+
+Customise your keyword via the "Configure Workflow" button above.</string>
 			<key>xpos</key>
-			<integer>30</integer>
+			<real>80</real>
 			<key>ypos</key>
-			<integer>30</integer>
+			<real>65</real>
 		</dict>
 		<key>FE16BE81-0226-44F6-9150-5625FE5B3690</key>
 		<dict>
 			<key>xpos</key>
-			<integer>240</integer>
+			<real>290</real>
 			<key>ypos</key>
-			<integer>30</integer>
+			<real>65</real>
 		</dict>
 	</dict>
-	<key>variablesdontexport</key>
-	<array/>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>dc</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Search Keyword</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>search_keyword</string>
+		</dict>
+	</array>
 	<key>version</key>
-	<string>2021.1</string>
+	<string>2022.2</string>
 	<key>webaddress</key>
 	<string>https://www.alfredapp.com</string>
 </dict>
