@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.deepcontactssearch</string>
+	<string>com.alfredapp.andrew.deepcontactssearch</string>
 	<key>connections</key>
 	<dict>
 		<key>96C603D5-9255-4260-9C2E-9634816A7988</key>
@@ -167,8 +167,8 @@ Customise your keyword via the "Configure Workflow" button above.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2022.2</string>
+	<string>2022.3</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com</string>
+	<string>https://github.com/alfredapp/deep-contacts-search-workflow/</string>
 </dict>
 </plist>
