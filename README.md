@@ -2,10 +2,10 @@
 
 Search all fields in a Contacts card
 
-<a href='https://alfred.app/workflows/alfredapp/deep-contacts-search'>⤓ Install on the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/alfredapp/deep-contacts-search)
 
 ## Usage
 
 Deep search Contacts cards via the `dc` keyword. Search by street name, phone number, or notes. The `*` wildcard prefix allows for partial name matching (e.g. `*dore` matches Commodore).
 
-![Deep Contacts](deep-contacts-search.png)
+![Deep Contacts](Workflow/deep-contacts-search.png)
