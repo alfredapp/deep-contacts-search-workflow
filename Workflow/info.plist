@@ -115,10 +115,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Use the Search Keyword (default: `dc`) to deep search Contacts cards.
+	<string>## Usage
 
-- Type a street name, phone number, or piece of information from the Notes field
-- Use the * wildcard prefix for a partial name match not beginning from a word boundary, e.g. type "*dore" to match "Commodore"
+Deep search Contacts cards via the `dc` keyword. Search by street name, phone number, or notes. The `*` wildcard prefix allows for partial name matching (e.g. `*dore` matches Commodore).
 
 ![Deep Contacts](deep-contacts-search.png)</string>
 	<key>uidata</key>
@@ -167,7 +166,7 @@ Customise your keyword via the "Configure Workflow" button above.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2022.3</string>
+	<string>2023.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alfredapp/deep-contacts-search-workflow/</string>
 </dict>
